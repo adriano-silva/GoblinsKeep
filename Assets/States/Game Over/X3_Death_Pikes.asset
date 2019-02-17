@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: X3_Death_Pikes
+  m_EditorClassIdentifier: 
+  storyTextEN: "YOU DIED!\r\n\r\nThe trap activates as you walk, the walls start approaching
+    quickly enough to prevent you from getting out.\r\nYou die crushed between the
+    walls.\r\n\r\n1. Restart from last checkpoint\r\n\r\nPush \"Q\" to quit."
+  storyTextFR: "VOUS \xCATES MORT! \r\n\r\nLe pi\xE8ge s'active lorsque vous marchez,
+    les murs commencent \xE0 s'approcher assez rapidement pour vous emp\xEAcher de
+    sortir. \r\nVous mourrez \xE9cras\xE9 entre les murs. \r\n\r\n1. Red\xE9marrer
+    \xE0 partir du dernier point de contr\xF4le \r\n\r\nAppuyez sur \"Q\" pour quitter."
+  nextStates:
+  - {fileID: 11400000, guid: 73f85094bf72e754f899a5b0fc045280, type: 2}

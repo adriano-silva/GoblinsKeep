@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: D0
+  m_EditorClassIdentifier: 
+  storyTextEN: 'The gate is massive and heavy. It has some iron ornaments.
+
+
+    The wood is wet and starting to decay, but it will take a lot of time for this
+    gate to fall apart due to its size.
+
+
+    Push "1" to open the gate and enter the dungeon...'
+  storyTextFR: "La porte est massive et lourde. Il a des ornements de fer. \r\n\r\nLe
+    bois est humide et commence \xE0 se d\xE9composer, mais il faudra beaucoup de
+    temps pour que cette porte tombe en morceaux \xE0 cause de sa taille. \r\n\r\nAppuyez
+    sur \"1\" pour ouvrir la porte et entrer dans le donjon ..."
+  nextStates:
+  - {fileID: 11400000, guid: 366183ee2b132be44a9b35fccfc667a5, type: 2}

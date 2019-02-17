@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: B1_DungeonEntrance
+  m_EditorClassIdentifier: 
+  storyTextEN: "After a few hours of walking, you arrive in front of the dungeon.
+    \n\nYou can see a big large wooden gate in the middle of an old brick wall. The
+    dungeon appears to be underground.\n\n\nPush \"1\" to inspect the gate..."
+  storyTextFR: "Apr\xE8s quelques heures de marche, vous arrivez devant le donjon.
+    \r\n\r\nVous voyez une grande grande porte en bois au milieu d'un vieux mur de
+    briques. Le donjon semble \xEAtre sous terre. \r\n\r\n\r\nAppuyez sur \"1\" pour
+    inspecter la porte ..."
+  nextStates:
+  - {fileID: 11400000, guid: 066f5b0b3a8246f46b72b688d422f54a, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: D3
+  m_EditorClassIdentifier: 
+  storyTextEN: "The door is made of wood, and it's old. The knob is simple without
+    any lock.\r\n\r\n1. Open the door\r\n2. Return "
+  storyTextFR: "La porte est en bois et elle est vieille. La poign\xE9e est simple
+    sans aucun verrou. \r\n\r\n1. Ouvrir la porte \r\n2. Retour"
+  nextStates:
+  - {fileID: 11400000, guid: ac0af9689baf940478e969fcc6e87cba, type: 2}
+  - {fileID: 11400000, guid: 73f85094bf72e754f899a5b0fc045280, type: 2}

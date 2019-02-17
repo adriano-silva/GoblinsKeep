@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: H1_Hall
+  m_EditorClassIdentifier: 
+  storyTextEN: 'You arrive on big hall. Some candles are still lit, they must be powered
+    by some magical source. A big rusted armor stands against a wall.
+
+    There are also two doors down the hall.
+
+
+    What do you want to do?
+
+    1. Inspect rusted armor
+
+    2. Inspect left door
+
+    3. Inspect right door
+
+'
+  storyTextFR: "Vous arrivez dans une grande salle. Certaines bougies sont encore
+    allum\xE9es, elles doivent \xEAtre aliment\xE9es par une source magique. Une grande
+    armure rouill\xE9e se dresse contre un mur. \r\nIl y a aussi deux portes dans
+    le couloir. \r\n\r\nQue voulez-vous faire? \r\n1. Inspecter l'armure rouill\xE9e
+    \r\n2. Inspecter la porte de gauche \r\n3. Inspecter la porte de droite "
+  nextStates:
+  - {fileID: 11400000, guid: be7fdd39a7796af4aac02adc19ab2aad, type: 2}
+  - {fileID: 11400000, guid: 3904961b22473cc42a23c315658c617c, type: 2}
+  - {fileID: 11400000, guid: 00a823edb952ae642b35280953bbbd64, type: 2}

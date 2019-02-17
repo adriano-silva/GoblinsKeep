@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: T2_Trap
+  m_EditorClassIdentifier: 
+  storyTextEN: "You arrive at a dead-end. Luckily, there's a beautiful chest in front
+    of you. \r\nIt's different from the other you've encountered.\r\n\r\n1. Open the
+    chest\r\n2. Return"
+  storyTextFR: "Vous arrivez dans une impasse. Heureusement, il y a un beau coffre
+    devant vous. \r\nIl est diff\xE9rent de l'autre que vous avez rencontr\xE9. \r\n\r\n1.
+    Ouvrir le coffre \r\n2. Retour"
+  nextStates:
+  - {fileID: 11400000, guid: 5bd1d67a963e49e4ebbccdf33fe65160, type: 2}
+  - {fileID: 11400000, guid: 345ebdbd6e60e5b4785a67a1aba725d5, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: H_111
+  m_EditorClassIdentifier: 
+  storyTextEN: "All levers are on.\r\n\r\n1. Pull first lever\r\n2. Pull second lever\r\n3.
+    Pull third lever\r\n"
+  storyTextFR: "Tous les leviers sont activ\xE9s. \r\n\r\n1. Tirer le premier levier
+    \r\n2. Tirer le deuxi\xE8me levier \r\n3. Tirer le troisi\xE8me levier "
+  nextStates:
+  - {fileID: 11400000, guid: ee381bc6f3e3cf843879d6714f158b0e, type: 2}
+  - {fileID: 11400000, guid: 5fccc9b662499fe48850a6b52ed2b91b, type: 2}
+  - {fileID: 11400000, guid: 02bed1c4c6e2593489e78a1a3abb8c77, type: 2}

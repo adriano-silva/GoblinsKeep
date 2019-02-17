@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: S5_Stairs
+  m_EditorClassIdentifier: 
+  storyTextEN: "The Golem congratulates you, you have passed the test and you have
+    the legitimate right to continue.\r\n\r\nThe door between the two gargoyles open,
+    the way goes down stairs again.\r\n\r\n1. Go down"
+  storyTextFR: "Le Golem vous f\xE9licite, vous avez r\xE9ussi le test et vous avez
+    le droit l\xE9gitime de continuer. \r\n\r\nLa porte entre les deux gargouilles
+    s'ouvre, le chemin descend \xE0 nouveau. \r\n\r\n1. Descendre"
+  nextStates:
+  - {fileID: 11400000, guid: 7862fd020f151c14ea5ae80a3716491a, type: 2}

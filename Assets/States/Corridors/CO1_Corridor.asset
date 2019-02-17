@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: CO1_Corridor
+  m_EditorClassIdentifier: 
+  storyTextEN: 'The light fades as you advance in a corridor.
+
+    You can identify a wooden barrel on your left. Ahead, a cauldron is knocked over.
+
+
+    1. Inspect the barrel
+
+    2. Inspect the cauldron
+
+    3. Continue...
+
+    4. Return to the stairs'
+  storyTextFR: "La lumi\xE8re s'estompe \xE0 mesure que vous avancez dans le couloir.
+    \r\nVous pouvez identifier un tonneau en bois sur votre gauche. Devant, un chaudron
+    est renvers\xE9. \r\n\r\n1. Inspecter le tonneau\r\n2. Inspecter le chaudron \r\n3.
+    Continuer ... \r\n4. Retour aux escaliers"
+  nextStates:
+  - {fileID: 11400000, guid: 468bf96ab78226a42a61339862324925, type: 2}
+  - {fileID: 11400000, guid: 54c6b84cabab83849aef61afb5afe11b, type: 2}
+  - {fileID: 11400000, guid: 64f46ece38106d341ab34b9eef6df4fa, type: 2}
+  - {fileID: 11400000, guid: d62fb881abc56714299552ca0407a722, type: 2}

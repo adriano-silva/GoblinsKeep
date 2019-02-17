@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: G1_Golem
+  m_EditorClassIdentifier: 
+  storyTextEN: "The golem is really big. It's made of old stone and covered by moss.\r\nA
+    big red gem sparkles in his chest.\r\n\r\n\r\n1. Touch the gem\r\n2. Return"
+  storyTextFR: "Le golem est vraiment grand. Il est fait de vieilles pierres et recouvert
+    de mousse. \r\nUne grosse gemme rouge brille dans sa poitrine. \r\n\r\n\r\n1.
+    Toucher la gemme \r\n2. Retour"
+  nextStates:
+  - {fileID: 11400000, guid: 52d2c263bd809af4dafa55cdaacb54ea, type: 2}
+  - {fileID: 11400000, guid: dc985e547ad64784cad8815bb629cf8b, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: X2_Death_Hole
+  m_EditorClassIdentifier: 
+  storyTextEN: "YOU DIED!\r\n\r\nYou jumped in the hole and landed on pikes. You died
+    instantly.\r\nWhat did you expect from jumping on a hole without seeing the bottom
+    of it?\r\n\r\n1. Restart from last checkpoint\r\n\r\nPush \"Q\" to quit."
+  storyTextFR: "VOUS \xCATES MORT! \r\n\r\nVous avez saut\xE9 dans le trou et atterri
+    sur des piques. La mort \xE9tait instantan\xE9e. \r\nQu'attendiez-vous de sauter
+    dans un trou sans voir le fond? \r\n\r\n1. Red\xE9marrer \xE0 partir du dernier
+    point de contr\xF4le \r\n\r\nAppuyez sur \"Q\" pour quitter."
+  nextStates:
+  - {fileID: 11400000, guid: f7b6fbfd7c6010b409dc868bac2da00b, type: 2}

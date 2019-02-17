@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: A1_Introduction
+  m_EditorClassIdentifier: 
+  storyTextEN: "You are a small cupid goblin. \n\nYou only care about yourself and
+    only wish for treasures of all kinds.\n\nYou roam the country in search of easy
+    robs. Most of the time, you steal coins from the pockets of poor people. \n\nYou
+    are heartless.\n\nPush \"1\" to continue"
+  storyTextFR: "Vous \xEAtes un petit gobelin cupide.\r\n\r\nVous ne vous souciez
+    que de vous et ne d\xE9sirez que des tr\xE9sors de toutes sortes.\r\n\r\nVous
+    parcourez le pays \xE0 la recherche de vols faciles. La plupart du temps, vous
+    volez des pi\xE8ces de monnaie dans les poches des pauvres.\r\n\r\nVous \xEAtes
+    sans c\u0153ur.\r\n\r\nAppuyez sur \"1\" pour continuer"
+  nextStates:
+  - {fileID: 11400000, guid: 171c3da78db0c454a8d473458d8a2d75, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: O1_RustedArmor
+  m_EditorClassIdentifier: 
+  storyTextEN: 'The armor seems to be very old. It must be at least two meters high.
+
+
+    The torso is full of rust, we can''t distinguish the symbol on it.
+
+    There''s nothing inside it.
+
+
+    1. Return to the hall
+
+'
+  storyTextFR: "L'armure semble \xEAtre tr\xE8s ancienne. Elle doit faire au moins
+    deux m\xE8tres de haut. \r\n\r\nLe torse est plein de rouille, on ne peut pas
+    distinguer le symbole dessus. \r\nIl n'y a rien dedans. \r\n\r\n1. Retour au hall"
+  nextStates:
+  - {fileID: 11400000, guid: 9bdc261365c20dd40a5df18f58fbb334, type: 2}

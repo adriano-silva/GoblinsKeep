@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: C2_Chest
+  m_EditorClassIdentifier: 
+  storyTextEN: "As you slowly open the chest, you see the light emanating from the
+    gold. The treasure is full of gold and jewels!\r\nIt's more than you could imagine
+    flying in your life.\r\nYou will not need to steal anymore. To you the good life,
+    the beautiful goblins, meat at any time!\r\nBut then you remember the black gem
+    from the merchant, you really need that gem.\r\nWhat do you want to do?\r\n1.
+    Keep the treasure and enjoy good life\r\n2. Go straight to the merchant with all
+    the gold you can carry"
+  storyTextFR: "En ouvrant lentement le coffre, vous voyez la lumi\xE8re \xE9manant
+    de l'or. Le tr\xE9sor est plein d'or et de bijoux! \r\nC'est plus que vous ne
+    pouvez imaginer voler dans votre vie. \r\nVous n'aurez plus besoin de voler. \xC0
+    vous la belle vie, les belles gobelines, de la viande \xE0 tout moment! \r\nMais
+    ensuite, vous vous souvenez de la gemme noire du marchand, vous avez vraiment
+    besoin de cette gemme. \r\nQu'est-ce que vous voulez faire? \r\n1. Gardez le tr\xE9sor
+    et profitez de la belle vie \r\n2. Allez directement chez le marchand avec tout
+    l'or que vous pouvez porter"
+  nextStates:
+  - {fileID: 11400000, guid: d9cf0badfef88994ea165997f9f1bb6c, type: 2}
+  - {fileID: 11400000, guid: 520eab59f5c2eda44b412b2a35f2f7d8, type: 2}

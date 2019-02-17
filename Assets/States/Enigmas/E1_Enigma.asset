@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: E1_Enigma
+  m_EditorClassIdentifier: 
+  storyTextEN: "The golem animates, and looks at you. He says with a roaring voice
+    \"I am the guardian of this dungeon. If you want to pass, you will have to respond
+    correctly at three enigmas!\"\r\nWhat disappears as soon as you say its name?\r\n\r\n1.
+    Traitor\r\n2. Silence\r\n3. Vapor"
+  storyTextFR: "Le golem s'anime et vous regarde. Il dit d'une voix rugissante \"Je
+    suis le gardien de ce cachot. Si vous voulez passer, vous devrez r\xE9pondre correctement
+    \xE0 trois \xE9nigmes!\" \r\nQu'est-ce qui dispara\xEEt d\xE8s que vous dites
+    son nom? \r\n\r\n1. Le tra\xEEtre \r\n2. Le silence \r\n3. La vapeur"
+  nextStates:
+  - {fileID: 11400000, guid: 9b296fc5538e2644eb06f2feb6b766e2, type: 2}
+  - {fileID: 11400000, guid: d1fbaec785362d54da2efbc711ee3065, type: 2}
+  - {fileID: 11400000, guid: 9b296fc5538e2644eb06f2feb6b766e2, type: 2}

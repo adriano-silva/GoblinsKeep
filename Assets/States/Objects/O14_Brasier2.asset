@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: O14_Brasier2
+  m_EditorClassIdentifier: 
+  storyTextEN: "Like the other brazier, it must be powered by some magical source.\r\n\r\n1.
+    Return"
+  storyTextFR: "Comme l\u2019autre brasier, il doit \xEAtre aliment\xE9 par une source
+    magique. \r\n\r\n1. Retour"
+  nextStates:
+  - {fileID: 11400000, guid: 7862fd020f151c14ea5ae80a3716491a, type: 2}

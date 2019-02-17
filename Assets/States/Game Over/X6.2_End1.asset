@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: X6.2_End1
+  m_EditorClassIdentifier: 
+  storyTextEN: "A kid grabs your hand, and tries to steal one coin from your pocket.
+    You let him do, and he leaves happier than you could be.\r\n\r\nYou are thinking
+    about leaving all the gold to your family and friends, and return to your good
+    old life of stealing the humans.\r\n\n1. Let's go steal some valuable items..."
+  storyTextFR: "Un gamin vous prend votre main, et essaie de voler une pi\xE8ce de
+    votre poche. Vous le laissez faire, et il part plus heureux que vous ne pourriez
+    l\u2019\xEAtre.\r\n\nVous d\xE9cidez de laisser tout l\u2019or \xE0 votre famille
+    et vos amis, et de retourner \xE0 votre bonne vieille vie \xE0 voler les humains.\r\n\r\n1.
+    Allons voler des objets de valeur..."
+  nextStates:
+  - {fileID: 11400000, guid: b707d3808b7603b48a5ea897e2dc27ca, type: 2}

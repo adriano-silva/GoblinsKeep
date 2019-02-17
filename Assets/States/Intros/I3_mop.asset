@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: I3_mop
+  m_EditorClassIdentifier: 
+  storyTextEN: 'You decide without hesitation to go for that dungeon. You''re a fearsome
+    goblin, no need to worry about the dangers.
+
+
+    Walking down the street, you see a poor woman cleaning the entrance of her house.
+    She leaves a mop against the wall and go in.
+
+
+    Push "1" to pick the mop and go to the dungeon. Better this than nothing.'
+  storyTextFR: "Vous d\xE9cidez sans h\xE9sitation \xE0 aller dans ce donjon. Vous
+    \xEAtes un redoutable gobelin, inutile de s'inqui\xE9ter des dangers. \r\n\r\nEn
+    marchant dans la rue, vous voyez une pauvre femme en train de nettoyer l'entr\xE9e
+    de sa maison. Elle laisse une serpill\xE8re contre le mur et rentre chez elle.
+    \r\n\r\nAppuyez sur \"1\" pour prendre la serpill\xE8re et allez au donjon. Mieux
+    vaut \xE7a que rien."
+  nextStates:
+  - {fileID: 11400000, guid: 5bf7f62aebd2b9241b564bfecb72cde9, type: 2}

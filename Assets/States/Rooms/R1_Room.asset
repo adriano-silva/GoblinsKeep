@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: R1_Room
+  m_EditorClassIdentifier: 
+  storyTextEN: "You finally arrive in a room with three doors. \r\nAll three are identical.\r\n\r\n1.
+    Go to the first door\r\n2. Go to second door\r\n3. Go to third door"
+  storyTextFR: "Vous arrivez enfin dans une pi\xE8ce \xE0 trois portes. \r\nLes trois
+    sont identiques. \r\n\r\n1. Aller \xE0 la premi\xE8re porte \r\n2. Aller \xE0
+    la deuxi\xE8me porte \r\n3. Aller \xE0 la troisi\xE8me porte"
+  nextStates:
+  - {fileID: 11400000, guid: 398d6e3808c197949a748f2c7fed99cb, type: 2}
+  - {fileID: 11400000, guid: 89ab5f76260f3ba4f894feaa9054f882, type: 2}
+  - {fileID: 11400000, guid: 505f34324d8d7de4c88bbcb364e584aa, type: 2}

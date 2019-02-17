@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: SQ1M_Squeleton
+  m_EditorClassIdentifier: 
+  storyTextEN: "You attacked the skeleton with the mop.\r\nThanks to you, he's all
+    clean now, but he didn't receive any damage.\r\n\r\nWhat is it gonna be this round?\r\n1.
+    Water the ground with the mop\r\n2. Try to bypass the skeleton\r\n"
+  storyTextFR: "Vous avez attaqu\xE9 le squelette avec la serpill\xE8re. \r\nGr\xE2ce
+    \xE0 vous, il est tout propre maintenant, mais il n'a subi aucun d\xE9g\xE2t.
+    \r\n\r\nQu'allez-vous faire maintenant? \r\n1. Mouiller le sol avec la serpill\xE8re\r\n2.
+    Essayer de contourner le squelette"
+  nextStates:
+  - {fileID: 11400000, guid: c3ce2f9171079bb47892611f6b420b1a, type: 2}
+  - {fileID: 11400000, guid: 7b3b5c4dc4097764193c92932b55bdde, type: 2}

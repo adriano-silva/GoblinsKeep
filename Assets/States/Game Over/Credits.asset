@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: Credits
+  m_EditorClassIdentifier: 
+  storyTextEN: 'END
+
+
+    Thank you for playing this game.
+
+
+    Developer : Adriano Silva
+
+
+    Icons : Ravenmore
+
+
+    Music author : Adan Quiroz'
+  storyTextFR: "FIN\n\nMerci d'avoir jou\xE9 \xE0 ce jeu.\n\nD\xE9velopeur : Adriano
+    Silva\n\nIc\xF4nes : Ravenmore\n\nMusique : Adan Quiroz"
+  nextStates: []

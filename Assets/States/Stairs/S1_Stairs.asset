@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: S1_Stairs
+  m_EditorClassIdentifier: 
+  storyTextEN: 'Behind the gate, stairs are going down.
+
+
+    You cannot see the end of it due to the lack of light.
+
+
+
+    Push "1" to go down...'
+  storyTextFR: "Derri\xE8re la porte, des escaliers descendent. \r\n\r\nVous ne pouvez
+    pas voir leurs fin en raison du manque de lumi\xE8re. \r\n\r\n\r\nAppuyez sur
+    \"1\" pour descendre ..."
+  nextStates:
+  - {fileID: 11400000, guid: 9bdc261365c20dd40a5df18f58fbb334, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: X7_End2
+  m_EditorClassIdentifier: 
+  storyTextEN: "You arrive at the merchant and the black gem is still there. You give
+    him all the coins you have, you don't care if you give him too much. You are charmed
+    somehow by this black gem. \nThe merchant picks it and give it to you.\r\nWhile
+    you hold it in your hands, you can feel some sort of magical power flowing through
+    your body. \nSudendly, you feel something calling you in the forest. \nYou decide
+    to go see what it is. \n\n1. Continue..."
+  storyTextFR: "Vous arrivez chez le marchand et le joyau noir est toujours l\xE0.
+    Vous lui donnez toutes les pi\xE8ces que vous avez, vous ne vous souciez pas de
+    lui en donner trop. Vous \xEAtes charm\xE9 par ce bijou noir. \nLe marchand le
+    choisit et vous le donne. \r\nPendant que vous le tenez entre vos mains, vous
+    pouvez sentir une sorte de pouvoir magique circuler dans votre corps. \nSoudain,
+    vous sentez que quelque chose vous appelle dans la for\xEAt. Vous d\xE9cidez d'aller
+    voir ce que c'est. \n\n1. Continuer..."
+  nextStates:
+  - {fileID: 11400000, guid: ee69fcbf0af0fda40be8f9b93983452c, type: 2}

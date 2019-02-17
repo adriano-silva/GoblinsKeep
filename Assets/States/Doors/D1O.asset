@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: D1O
+  m_EditorClassIdentifier: 
+  storyTextEN: "You approach the door, fit in the key and unlock it. \n\n1. Open the
+    door\n2. Return to the hall"
+  storyTextFR: "Vous approchez la porte, ins\xE9rez la cl\xE9 et la d\xE9verrouillez.
+    \r\n\r\n1. Ouvrir la porte \r\n2. Retour au hall"
+  nextStates:
+  - {fileID: 11400000, guid: d62fb881abc56714299552ca0407a722, type: 2}
+  - {fileID: 11400000, guid: f1e78744e6b28f041aac63101d8ecd0f, type: 2}

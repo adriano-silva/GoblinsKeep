@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: O2_Cauldron
+  m_EditorClassIdentifier: 
+  storyTextEN: "You put the cauldron right side up. \nA red liquid lies inside. It
+    looks like blood...\n\nIt's definitely blood!\n\nThis starts to freak you out.\n\n1.
+    Return to the corridor"
+  storyTextFR: "Vous mettez le chaudron \xE0 l'endroit. \r\nUn liquide rouge se trouve
+    \xE0 l'int\xE9rieur. Cela ressemble \xE0 du sang ... \r\n\r\nC'est d\xE9finitivement
+    du sang! \r\n\r\n\xC7a commence \xE0 vous faire peur. \r\n\r\n1. Retourner dans
+    le couloir"
+  nextStates:
+  - {fileID: 11400000, guid: 840df93e024b62d45ba7205443e48312, type: 2}

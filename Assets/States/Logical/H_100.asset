@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: H_100
+  m_EditorClassIdentifier: 
+  storyTextEN: "The first lever is on. The second and third are off.\r\n\r\n1. Pull
+    first lever\r\n2. Push the second lever\r\n3. Push the third lever\r\n"
+  storyTextFR: "Le premier levier est activ\xE9. Les deuxi\xE8me et troisi\xE8me sont
+    d\xE9sactiv\xE9s. \r\n\r\n1. Tirer le premier levier \r\n2. Pousser le deuxi\xE8me
+    levier \r\n3. Pousser le troisi\xE8me levier "
+  nextStates:
+  - {fileID: 11400000, guid: 2008070a2406be44c9adf6578d0c20c2, type: 2}
+  - {fileID: 11400000, guid: 02bed1c4c6e2593489e78a1a3abb8c77, type: 2}
+  - {fileID: 11400000, guid: 5fccc9b662499fe48850a6b52ed2b91b, type: 2}

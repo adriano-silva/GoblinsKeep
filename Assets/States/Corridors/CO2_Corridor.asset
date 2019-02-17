@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: CO2_Corridor
+  m_EditorClassIdentifier: 
+  storyTextEN: "An old shield lies on the ground, near the pile of bones.\r\n\r\n1.
+    Investigate the shield\r\n2. Continue..."
+  storyTextFR: "Un vieux bouclier repose sur le sol, pr\xE8s du tas d'os. \r\n\r\n1.
+    Enqu\xEAter le bouclier \r\n2. Continuer ..."
+  nextStates:
+  - {fileID: 11400000, guid: 10a3eb06021ac704d9f3432f4a10a58c, type: 2}
+  - {fileID: 11400000, guid: 3b22611a75ae4b64e87fa8487fe8291c, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: SQ1_Squeleton
+  m_EditorClassIdentifier: 
+  storyTextEN: "As you advance in the corridor, you see a shape. It's moving towards
+    you.\r\n\r\nIt's a mighty skeleton! It carries a rusted sword! \r\n\r\nYou only
+    have a mop in the hand. What do you do?\r\n1. Try to bypass the skeleton. He shouldn't
+    be able to run after you.\r\n2. Attack with the mop"
+  storyTextFR: "En avan\xE7ant dans le couloir, vous voyez une forme. Elle bouge vers
+    vous. \r\n\r\nC'est un puissant squelette! Il porte une \xE9p\xE9e rouill\xE9e!
+    \r\n\r\nVous n'avez qu'une serpill\xE8re dans la main. Que faire? \r\n1. Essayer
+    de contourner le squelette. Il ne devrait pas pouvoir courir apr\xE8s vous. \r\n2.
+    Attaquer avec la serpill\xE8re"
+  nextStates:
+  - {fileID: 11400000, guid: 7b3b5c4dc4097764193c92932b55bdde, type: 2}
+  - {fileID: 11400000, guid: d7118cc1a481faf4aa58c9ccf92a5d78, type: 2}

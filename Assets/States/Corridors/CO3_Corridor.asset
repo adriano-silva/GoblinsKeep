@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: CO3_Corridor
+  m_EditorClassIdentifier: 
+  storyTextEN: "The corridor is so long that you don't see the end of it. There isn't
+    much light in there.\r\n\r\n1. Return\r\n2. Continue..."
+  storyTextFR: "Le couloir est si long que vous n'en voyez pas la fin. Il n'y a pas
+    beaucoup de lumi\xE8re l\xE0-dedans. \r\n\r\n1. Retour \r\n2. Continuer ..."
+  nextStates:
+  - {fileID: 11400000, guid: 3b22611a75ae4b64e87fa8487fe8291c, type: 2}
+  - {fileID: 11400000, guid: 73f85094bf72e754f899a5b0fc045280, type: 2}

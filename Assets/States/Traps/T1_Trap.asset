@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: T1_Trap
+  m_EditorClassIdentifier: 
+  storyTextEN: "You can see some bones against the walls. They are all crushed.\r\nAs
+    you walk, you hear some triggering noise and everything becomes black.\r\nYou
+    can't move, or do anything. Pain comes all over your body.\r\n\r\n1. Continue"
+  storyTextFR: "Vous pouvez voir des os contre les murs. Ils sont tous \xE9cras\xE9s.
+    \r\nEn marchant, vous entendez un bruit de d\xE9clenchement et tout devient noir.
+    \r\nVous ne pouvez pas bouger ou faire quoi que ce soit. La douleur traverse tout
+    votre corps. \r\n\r\n1. Continuer..."
+  nextStates:
+  - {fileID: 11400000, guid: 4235ad9eb18ede648840668f2100d269, type: 2}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: O13_Brasier1
+  m_EditorClassIdentifier: 
+  storyTextEN: "Fire is burning from the brazier, it must be some kind of magical
+    fire. How could it still be burning without nobody coming in.\r\n\r\n1. Return"
+  storyTextFR: "Le feu br\xFBle sur le brasier, ce doit \xEAtre une sorte de feu magique.
+    Comment pourrait-il encore br\xFBler sans que personne ne vienne? \r\n\r\n1. Retour"
+  nextStates:
+  - {fileID: 11400000, guid: 7862fd020f151c14ea5ae80a3716491a, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: HO1_Hole
+  m_EditorClassIdentifier: 
+  storyTextEN: "You continue through the corridor. Suddenly, your foot starts to slip
+    down, but you manage to keep your balance. \r\n\r\nA big hole lies in front of
+    you.\r\n\r\n1. Jump in it\r\n2. Jump across"
+  storyTextFR: "Vous continuez dans le couloir. Soudain, votre pied commence \xE0
+    glisser, mais vous parvenez \xE0 garder votre \xE9quilibre. \r\n\r\nUn grand trou
+    se trouve devant vous. \r\n\r\n1. Sauter dedans \r\n2. Sauter par dessus"
+  nextStates:
+  - {fileID: 11400000, guid: b992a7a23ba08164b95cf9fc9a2ad6f7, type: 2}
+  - {fileID: 11400000, guid: 566d985ca1d19844290d24425d437d7c, type: 2}

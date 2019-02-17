@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: D2K
+  m_EditorClassIdentifier: 
+  storyTextEN: 'You already went into the storage room. There''s nothing interesting
+    anymore.
+
+
+    1. Return to the hall'
+  storyTextFR: "Vous \xEAtes d\xE9j\xE0 entr\xE9 dans la salle de stockage. Il n'y
+    a plus rien d'int\xE9ressant. \r\n\r\n1. Retour dans le hall"
+  nextStates:
+  - {fileID: 11400000, guid: f1e78744e6b28f041aac63101d8ecd0f, type: 2}

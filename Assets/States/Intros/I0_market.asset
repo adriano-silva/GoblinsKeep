@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: I0_market
+  m_EditorClassIdentifier: 
+  storyTextEN: "After days of wandering, you end up in a market of small town.\n\nPeople
+    are selling all kinds of vegetables, animals, seeds...\n\nYou are looking for
+    something good to steal, but nothing interesting.\n\nSuddenly, your goblin's sense
+    points towards a simple merchant.\r\n\r\nPush \"1\" to see what the merchant has
+    to sell..."
+  storyTextFR: "Apr\xE8s des jours d'errance, vous vous retrouvez dans un march\xE9
+    de petite ville.\n\r\nLes gens vendent toutes sortes de l\xE9gumes, animaux et
+    graines ... \r\n\r\nVous cherchez quelque chose de bien \xE0 voler, mais il n'a
+    rien d\u2019int\xE9ressant. \r\n\r\nSoudain, le sens de votre gobelin pointe vers
+    un simple marchand. \r\n\r\nAppuyez sur \"1\" pour voir ce que le marchand a \xE0
+    vendre ..."
+  nextStates:
+  - {fileID: 11400000, guid: 4b073fb6562b66144971011261dab8bc, type: 2}

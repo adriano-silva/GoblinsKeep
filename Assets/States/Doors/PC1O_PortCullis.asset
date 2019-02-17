@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: PC1O_PortCullis
+  m_EditorClassIdentifier: 
+  storyTextEN: "The portcullis is open. You can go through.\r\n\r\n1. Continue..."
+  storyTextFR: "La herse est ouverte. Vous pouvez passer. \r\n\r\n1. Continuer ..."
+  nextStates:
+  - {fileID: 11400000, guid: 5e679185934938045a2bd458298aa0c6, type: 2}

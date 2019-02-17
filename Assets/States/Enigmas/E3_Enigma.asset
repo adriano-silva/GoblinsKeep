@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: E3_Enigma
+  m_EditorClassIdentifier: 
+  storyTextEN: "This thing all things devours;\r\nBirds, beasts, trees, flowers;\r\nGnaws
+    iron, bites steel;\r\nGrinds hard stones to meal;\r\nSlays king, ruins town,\r\nAnd
+    beats mountain down. \r\n\r\n1. Fire\r\n2. Void\r\n3. Time"
+  storyTextFR: "Cette chose tout d\xE9vore; \r\nOiseaux, b\xEAtes, arbres, fleurs;
+    \r\nRonge le fer, mord l'acier; \r\nBroie les pierres dures en farine; \r\nTue
+    le roi, ruine la ville, \r\nEt bat la montagne en bas. \r\n\r\n1. Le feu \r\n2.
+    Le vide \r\n3. Le temps"
+  nextStates:
+  - {fileID: 11400000, guid: 9b296fc5538e2644eb06f2feb6b766e2, type: 2}
+  - {fileID: 11400000, guid: 9b296fc5538e2644eb06f2feb6b766e2, type: 2}
+  - {fileID: 11400000, guid: 64d13a247df6e54489a2810e19da3279, type: 2}

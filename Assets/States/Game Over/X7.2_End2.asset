@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb11115938f89e46aaab3e1bd1c63d7, type: 3}
+  m_Name: X7.2_End2
+  m_EditorClassIdentifier: 
+  storyTextEN: "When you arrive there, you see a black mage waiting.\r\nHe thanks
+    you for finding the black gem he had lost some years ago, and then the gem flies
+    towards the mage. You regain your full consciousness and understand that you were
+    manipulated. The mage disappears.\r\n\r\nYou go back to the merchant to see if
+    you can get back some of your gold, but he also disappeared. \r\nYou end up in
+    the middle of the market, just like before, no money, no food...\r\n\n1. Let's
+    go steal some valuable items..."
+  storyTextFR: "Quand vous arrivez l\xE0-bas, vous voyez un mage noir qui attend.
+    \r\nIl vous remercie d'avoir trouv\xE9 la gemme noire qu'il avait perdu il y a
+    quelques ann\xE9es, puis la gemme s'envole vers le mage. Vous reprenez votre pleine
+    conscience et comprenez que vous avez \xE9t\xE9 manipul\xE9. Le mage dispara\xEEt.
+    \r\n\rVous retournez chez le marchand pour voir si vous pouvez r\xE9cup\xE9rer
+    une partie de votre or, mais il a \xE9galement disparu. \r\nVous vous retrouvez
+    au milieu du march\xE9, comme avant, sans argent, sans nourriture ... \r\n\n1.
+    Allons voler des objets de valeur..."
+  nextStates:
+  - {fileID: 11400000, guid: b707d3808b7603b48a5ea897e2dc27ca, type: 2}
